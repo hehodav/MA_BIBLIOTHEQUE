@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de bibliothèque</title>
+    <meta name="description" content="Un gestionnaire de livre pour gérer votre bilbiothèque">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="box-wrap">
+        <h1>Ma bibliothèque</h1>
+        <hr>
+    </div>
+
+    <div class="box-wrap">
+        <div class="table-wrap">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>ISBN</th>
+                        <th>Titre</th>
+                        <th>Auteur</th>
+                        <th>Editeur</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <h1>Formulaire</h1>
+        <hr>
+    </div>
+
+    <div class="box-wrap">
+        <div class="container form">
+            <div class="container-form">
+                <label for="ISBN" aria-label="ISBN">ISBN</label>
+                <input type="number" name="ISBN" id="ISBN" placeholder="Entrer le numero ISBN"
+                    aria-placeholder="Entrer le numero ISBN" required>
+            </div>
+
+            <div class="container-form">
+                <label for="Titre" aria-label="Titre">Titre</label>
+                <input type="text" name="Titre" id="Titre" placeholder="Entrer le titre"
+                    aria-placeholder="Entrer le titre">
+            </div>
+
+            <div class="container-form">
+                <label for="Auteur" aria-label="Auteur">Auteur</label>
+                <input type="text" name="Auteur" id="Auteur" placeholder="Entrer le nom de l'auteur"
+                    aria-placeholder="Entrer le nom de l'auteur">
+            </div>
+
+            <div class="container-form">
+                <label for="Editeur" aria-label="Editeur">Editeur</label>
+                <input type="text" name="Editeur" id="Editeur" placeholder="Entrer le nom de l'éditeur"
+                    aria-placeholder="Entrer le nom de l'éditeur">
+            </div>
+
+            <button type="button" onclick="addBook()">Envoyer</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

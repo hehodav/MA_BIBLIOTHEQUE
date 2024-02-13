@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+
+header a {
+  text-decoration: none;
+  color: #96953F;
+  font-family: Bebas Neue; 
+  font-size: 0.75em;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;  
+  font-family: Bebas Neue; 
+  font-size: 3em;
+}
+
+
+/******************* 
+*     Formulaire   *
+********************/
+.container-form {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #FFFFFF;
+  border: 2px solid #D2483D;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px #96953F;
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Bebas Neue; 
+  font-size: 1em;
+}
+
+.container-form p {
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  color:#D2483D;
+  font-weight: bold;
+}
+
+.container-form div {
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#D2483D;
+  font-weight: bold;
+}
+
+input {
+  /* margin-top: 10px; */
+  padding: 15px;
+  border: 1px solid #96953F;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-size: 0.8em;
+  width: 80%; 
+}
+
+label {
+  padding: 15px;
+}
+
+#btnInscrire {
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #D2483D;
+  color: #F3F3F3;
+  box-shadow: 2px 2px 2px #96953F;
+  transition: all 1000ms ease;
+  
+}
+
+#btnInscrire:hover {
+  background-color: #96953F;
+  color: #F3F3F3;
+  box-shadow: 2px 2px 2px #D2483D;
+  padding: 20px 100px 20px 100px;
+  transition: all 1000ms ease;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D2483D;
+  color: #F3F3F3;
+  box-shadow: 2px 2px 2px #96953F;
+}
+
+
+/******************* 
+*     Tableau   *
+********************/
+.container-table {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 2px solid #D2483D;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px #96953F;
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Bebas Neue; 
+  font-size: 1em;
+}
+
+caption {
+  padding: 10px;
+  caption-side: top;
+  color: #96953F;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid #96953F;
+  overflow: auto;
+  margin: 30px;
+}
+
+th, td {
+  border: 1px solid #96953F;
+  padding: 10px;
+}
+
+th {
+  background-color: #D2483D;
+  color: #F3F3F3;
+}
+
+td {
+  font-family: Montserrat;
+  font-size: 0.8em;
+}
+
+

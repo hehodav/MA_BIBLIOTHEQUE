@@ -1,0 +1,121 @@
+element{
+    --text-color-light : #ddd;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:  #1b1b32;;
+    background-image: linear-gradient(115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)), url(./livre-bibliotheque-manuel-ouvert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-wrap {
+    padding: 0px 16px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #ddd;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/**************** tableau *********************/
+.container{
+    background-color: rgba(27, 27, 50, 0.8);
+    border: none;
+    border-radius: 15px;
+    padding: 20px 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.table-wrap {
+    max-width: 800px;
+    margin: 80px auto;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+th {
+    background: black;
+    color: #ddd;
+    padding: 10px;
+}
+
+td{
+    color:var(--text-color-light);
+    padding: 10px;
+}
+
+tr:nth-of-type(2n-1){
+    background-color: #69b2ebcc;
+    color: #000;
+}
+
+/**************** Formulaire ******************/
+.container{
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+label{
+    padding: 15px;
+    font-size: 20px;
+    color: var(--text-color-light);
+    text-transform: capitalize;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#ISBN::-webkit-inner-spin-button,#ISBN::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+}
+
+button{
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px;
+    background-color: #37af65;
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: aqua;
+}
